@@ -1,0 +1,116 @@
+<html lang="en"><head>
+    <title>ModernEdge Open Marketing</title>
+    <meta name="description" content="CMS Modern Edge Mktg - Description">
+    <meta name="keywords" content="CMS Modern Edge Mktg - Keywords">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://modernedge.online/Articon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://modernedge.online/Articon.png" type="image/x-icon">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style type="text/css">
+    
+    div#messages{position:fixed;top:50px;right:0px;width:250px;margin:0px;padding:7px;background:transparent;z-index:2}div#messages div{cursor: pointer;color:#fff;padding:7px;margin-bottom:7px;-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;opacity:0.65;background:#888;font: normal 12px 'Georgia'}div#messages div.error{background:#98001b}	div#messages div.message{background:#0d8529}div#messages div.warning{background:#dd6; color:#333}
+
+
+*{box-sizing:border-box;}
+html, body{padding:0; margin:0;}
+body{width:100%; max-width:100vw;}
+
+.firstMate{width:100%; background-color:aqua; display:block; position:absolute; overflow-x:hidden; height:100%;top:0; left:0;}
+
+.mobileFirst{width:390px; max-width:390px; background-color:#000000; color:#ffffff; display:block; position:absolute; top:0; left:50%; transform:translateX(-50%); min-height:720px;}
+
+a{list-style: none; text-decoration:none; color:#98001b;}
+ul *{list-style: none; text-decoration:none; color:#98001b;}
+/* ul.sub_menu_dropdown{display:none;} */
+.switch-menu{cursor:pointer;}
+.hide-780{display:none}
+.switch-menu:hover .hide-780{ display: block;}
+.dropDownNav ul.sub_menu_dropdown{display:none;}
+.dropDownNav:hover ul.sub_menu_dropdown{display:block;}
+
+
+.box {font-family:'Poppins', sans-serif; position:relative; width: 300px; height: 300px;flex-direction: row; -ms-flex-direction: row; -moz-box-flex: inherit; display: flex; justify-content:center; align-items: flex-start; margin: 40px; background: #060c21; transition: 0.5s;
+/*  */
+}
+.box:hover { height: 200px;}
+.box .content{
+    cursor:pointer;
+    border: 5px solid red;
+position: absolute; left:0px; right: -10px; bottom: -2px; 
+height: 175px; 
+width:310px;
+background: rgba(0,0,0,0.4); 
+display: flex; justify-content: center; align-items: flex-start; opacity:0; transition: 0.5s;}
+.box:hover .content{opacity:1;}
+.box .content h2{font-size: 20px; color: #fff; line-height: 20px; font-weight:500; letter-spacing:1px;}
+.box .content h2 span{color: #fff; font-size:14px;font-weight:200; letter-spacing:2px;}
+.box .imgBx{position: absolute; top:0; left:0; width: 100%; height: 100%; padding: 10px; box-sizing: border-box;}
+.box .imgBx img {max-width:100%; opacity: 0.1; transition: 0.5s;}
+.box:hover .imgBx img {opacity:1;}
+.box:before{content:''; position: absolute; top: -2px; left: -2px; right: -2px; bottom: -2px; background: #fff; z-index:-1;}
+.box:after{content:''; position: absolute; top: -2px; left: -2px; right: -2px; bottom: -2px; background: #fff; z-index:-2; filter: blur(40px); -webkit-filter: blur(40px);}
+.box:before, .box:after{background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+background: -webkit-gradient(235deg, #89ff00, #010615, #00bcd4);}
+.box:nth-child(2):before, 
+.box:nth-child(2):after{background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
+background: -webkit-gradient(235deg, #ff005e, #010615, #fbff00);}
+.box:nth-child(3):before, 
+.box:nth-child(3):after{background: linear-gradient(235deg, #772aff, #010615, #2196F3);
+background: -webkit-gradient(235deg, #772aff, #010615, #2196F3);}
+
+
+#goSoft{display:block; position:absolute; bottom:-45px; opacity:0.5; transition:opacity 0.5s;}
+.box:hover > #goSoft{opacity:1;}
+
+
+
+    </style>
+    </head>
+    
+
+    <body>
+
+<div class="firstMate">
+    <div class="mobileFirst">
+        <div id="cookie-bar" class="fixed bottom">
+            <p>ModernEdge Open Marketing uses cookies, 
+                <a href="http://localhost:6969/__Open_Marketing/realmktg/page/5" target="_blank">Privacy Policy</a>
+                <a href="" class="cb-enable">X</a>
+            </p>
+        </div>
+    
+        <noscript>
+        <div class="noscript">Allow javascript in your browser for comfortable use site.</div>
+        </noscript> 
+
+        <nav class="switch-menu" style="background-color:#3c3c3c;">
+            <span><span class="image-menu"></span>Menu</span>
+            <ul class="sf-menu line_menu hide-780 dropDownNav" id="nav" >
+                <li class="depth_zero depth_item_numb_0"> <a href="/__Open_Marketing/realmktg/login">Login</a></li>
+                <li class="depth_zero depth_item_numb_1"><a href="/__Open_Marketing/realmktg/register">Sign up</a></li>
+                <li class="depth_zero"><a class="fancy mgp-open-ajax" href="/__Open_Marketing/realmktg/recover">Forgotten password?</a></li>
+                <li class="depth_zero pointer"><a href="/__Open_Marketing/realmktg/usercpanel">Dashboard</a>
+                    <ul class="sub_menu_dropdown">
+                        <li><a href="/__Open_Marketing/realmktg/login">Where in the list am I</a></li>
+                        <li><a href="https://modernedge.online/realmktg">Real Marketing</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+    </html>
+    
